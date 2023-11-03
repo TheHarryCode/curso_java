@@ -24,6 +24,8 @@ public class Persona {
 	private Double salarioPromedio;
 	private Double egresosMensuales;
 	private Double ingresosMensuales;
+	private String tieneHijos;
+	private String peso;
 	
 	@Override
 	public String toString() {
@@ -188,6 +190,22 @@ public class Persona {
 
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
+	}
+
+	public String getTieneHijos() {
+		return tieneHijos;
+	}
+
+	public void setTieneHijos(String tieneHijos) {
+		this.tieneHijos = tieneHijos;
+	}
+
+	public String getPeso() {
+		return peso;
+	}
+
+	public void setPeso(String peso) {
+		this.peso = peso;
 	}
 
 
